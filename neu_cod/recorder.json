@@ -1,0 +1,34 @@
+{
+    "name": "discord-voice-recorder",
+    "version": "1.0.0",
+    "description": "A Discord bot that records voice channel audio with rolling buffer functionality",
+    "main": "recorder.js",
+    "scripts": {
+      "start": "node recorder.js",
+      "dev": "nodemon recorder.js"
+    },
+    "keywords": [
+      "discord",
+      "bot",
+      "voice",
+      "recording",
+      "audio"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "discord.js": "^14.14.1",
+      "@discordjs/voice": "^0.17.0",
+      "dotenv": "^16.3.1",
+      "prism-media": "^1.3.5",
+      "@discordjs/opus": "^0.10.0",
+      "sodium-native": "^4.0.10",
+      "tweetnacl": "^1.0.3"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.2"
+    },
+    "engines": {
+      "node": ">=16.9.0"
+    }
+  }

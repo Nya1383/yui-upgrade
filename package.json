@@ -1,0 +1,14 @@
+{
+  "name": "yui-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot with Yui Hirasawa personality using Google's Gemini AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "@google/genai": "^0.2.0"
+  }
+} 
